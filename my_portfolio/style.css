@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 5;
+    backdrop-filter: blur(2rem);
+    /*used to become forward and backward*/
+    /*the lower value gets back and higher gets front*/
+}
+.intro{
+    font-size: 19px;
+}
+
+.user{
+    background:teal;
+    width: 35%;
+    min-height: 80vh;
+    
+    border-radius: 2rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+.img{
+    border-radius: 50%;
+    width: 180px;
+    height: 175px;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+.clicks{
+    color: cadetblue;
+      
+    
+}
+.skill{
+    margin-top:10px;
+    
+    
+}
+.education{
+    margin-top:10px;
+    
+    
+}
+.project{
+    margin-top:14px;
+}
+a:hover{
+    color: burlywood;
+}
+
+
+.img2{
+    width: 40px;
+    height: 20px;
+
+}
+.class1,.class2{
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.8),rgba(255,255,255, 0.3));
+    height: 9rem;
+    width: 9rem;
+    position: absolute;
+    
+    
+}
+.class1{
+    bottom: 5%;
+    left: 14%;
+    border-radius: 50%;
+}
+.class2{
+    top: 4%;
+    right: 14%;
+    border-radius: 50%;
+}
+.dashboard{
+    float: right;
+    width: 65%;
+    height: 100%;
+}
+h2,h1{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.img4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 12%;
+
+}
+    
+h1{
+    font-size: 4rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+h2{
+    color: teal;
+    margin-left: 3rem;
+    
+}
+.skill{
+    color:#ffff;
+    text-decoration: underline;
+    margin-left: 0 ;
+}
+.clicks{
+    text-align: center;
+}
+.list-skills{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+li{
+    padding-top: 5px;
+}
+h3{
+    margin-left: 2rem;
+    color:teal;
+    margin-top: 1rem;
+}
+p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    float: right;
+    margin-right: 2rem;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.mail{
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 50%;
+    
+    
+}
+.phone{
+    height: 20px;
+    width: 20px;
+    float: left;
+    border-radius: 50%;
+    
+}
+
